@@ -3,6 +3,7 @@ import { Button } from "@/components/Button";
 import startsBg from "@/assets/stars.png";
 import { motion, useMotionValueEvent, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+/* eslint-disable react/no-unescaped-entities */
 
 export const Hero = () => {
   const sectionRef = useRef(null);
